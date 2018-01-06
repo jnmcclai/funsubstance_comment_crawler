@@ -4,9 +4,9 @@ Python requests based script to crawl through the web comments of a Funsubstance
 
 ### Prerequisites
 
-python 3
-requests
-lxml
+python 3  
+requests  
+lxml  
 
 ## Getting Started
 
