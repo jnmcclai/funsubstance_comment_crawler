@@ -27,7 +27,7 @@ while True:
 	for comment in comments:
 		if re.search(search_key, comment, re.IGNORECASE):
 			# logging.info('Page ID: %s; URI: %s; Comment: %s', page_id, uri, comment)
-			print('Page ID: {0}; URI: {1}; Comment: {2}'.format(page_id, uri, comment))
+			print('URI: {1};\nComment: {2}'.format(page_id, uri, comment))
 
 	# Try to obtain the next page ID to navigate to later
 	try:
